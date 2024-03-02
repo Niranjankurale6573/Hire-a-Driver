@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    
+    <servlet>
+        <servlet-name>booking</servlet-name>
+        <servlet-class>viewdriverc</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>booking</servlet-name>
+        <url-pattern>/viewdriverc</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>carinfo</servlet-name>
+        <servlet-class>booking</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>carinfo</servlet-name>
+        <url-pattern>/Carinfo</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>bill</servlet-name>
+        <servlet-class>bill</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>bill</servlet-name>
+        <url-pattern>/Bill</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>payment</servlet-name>
+        <servlet-class>bill</servlet-class>
+    </servlet>
+     <servlet-mapping>
+        <servlet-name>payment</servlet-name>
+        <url-pattern>/Payment</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>complaint</servlet-name>
+        <servlet-class>complaint</servlet-class>
+    </servlet>
+      <servlet-mapping>
+        <servlet-name>complaint</servlet-name>
+        <url-pattern>/complaint</url-pattern>
+    </servlet-mapping>
+   
+     
+    <servlet>
+        <servlet-name>serchDriver</servlet-name>
+        <servlet-class>viewdriverc</servlet-class>
+    </servlet>
+    
+      <servlet-mapping>
+        <servlet-name>serchDriver</servlet-name>
+        <url-pattern>/hire</url-pattern>
+    </servlet-mapping>
+    
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

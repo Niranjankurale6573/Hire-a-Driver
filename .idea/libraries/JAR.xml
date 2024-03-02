@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="JAR">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/JAR/commons-collections-3.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JAR/mysql-connector-java-5.1.42-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JAR/mysql-database-1.6.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JAR/mysql-connector-java-8.0.30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JAR/iText-2.1.7.js2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JAR/sqljdbc4-2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JAR/protobuf-java-3.19.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JAR/mysql-connector-java-5.1.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JAR/commons-logging-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JAR/jasperreports-5.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JAR/mysql-database-1.8.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JAR/commons-beanutils-1.8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JAR/mysql-connector-j-8.0.31.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JAR/commons-digester-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JAR/groovy-all-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JAR/mysql-5.1.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JAR/mysql-connector-java-5.1.40-bin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
